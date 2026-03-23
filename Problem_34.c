@@ -6,7 +6,7 @@ int main()
 	printf("Enter fout numbers: ");
 	scanf("%d %d %d %d", &a, &b, &c, &d);
 
-	if((a + b == c + d) && (a + c == b + d) && (b + c == a + d) && (b + d == a + c))
+	if((a + b == c + d) || (a + c == b + d) || (b + c == a + d) || (b + d == a + c))
 	{
 		printf("true");
 	}
